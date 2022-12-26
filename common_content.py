@@ -1,7 +1,7 @@
 s_content = {
 
 'Course Schedule': 'The course schedule is available through Moodle.',
-'Work Load': 'This is a 4 credit hour course which carries the expectation of 8 - 9 hours of work outside class. Every week we will have assigned exercises that students are responsible for completing independently during this time. These exercises are designed to refine and expand your understanding of the course material and are essential for success in the class.'
+'Work Load': 'This is a 4 credit hour course which carries the expectation of 8 - 9 hours of work outside class. Every week we will have assigned exercises that students are responsible for completing independently during this time. These exercises are designed to refine and expand your understanding of the course material and are essential for success in the class.',
 'Course Tools' : 'This course makes heavy use of Moodle. Students are expected to keep up to date with Moodle throughout the semester.',
 'Reading Responses' : '''This class will be taught in a "flipped" style, meaning you will be responsible for your initial exposure to learning new material outside of class, and time in class will be spent on exercises and activities that will strengthen the understanding you bring to class.
 A set of questions will be assigned to be answered before most classes. These questions will invite your reaction to the assigned material and check your understanding of it. Your responses will help us tailor our time in class to your needs.
@@ -27,8 +27,8 @@ Missed quizzes and exams will receive zero points unless prior approval has been
 'Class absense' : 'Students are responsible for any work missed due to absences. Work may almost always be submitted early. It may not be submitted late.',
 
 'Grading and Late Work Policy': 'h1',
-'Grade for the Course': 'Course grades will be calculated at the end of the term by dividing the points earned by the total number of available points. Grading details are available on Moodle.'
-'Regrading': 'If you would like to request a regrade, submit a request to the instructor via email within one week of receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score and why.'
+'Grade for the Course': 'Course grades will be calculated at the end of the term by dividing the points earned by the total number of available points. Grading details are available on Moodle.',
+'Regrading': 'If you would like to request a regrade, submit a request to the instructor via email within one week of receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score and why.',
 'Late Work Policy': 'Unless otherwise stated, late work of any kind will not receive credit.',
 
 'Diversity' : 'h1',
