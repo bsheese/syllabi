@@ -31,7 +31,7 @@ Missed quizzes and exams will receive zero points unless prior approval has been
 'Regrading': 'If you would like to request a regrade, submit a request to the instructor via email within one week of receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score and why.',
 'Late Work Policy': 'Unless otherwise stated, late work of any kind will not receive credit.',
 
-'Diversity' : 'h1',
+'Diversity' :
 '''Our mission statement includes, "The University through our policies, programs and practices is committed to diversity [...]" Our school and this course are made stronger by the mix of people that come into it bringing a diversity of ideas, experiences, and backgrounds. Dimensions of diversity can include sex, race, age, national origin, ethnicity, gender identity and expression, intellectual and physical ability, sexual orientation, income, faith and non-faith perspectives, socio-economic class, political ideology, education, primary language, family status, military experience, cognitive style, and communication style. We will strive to establish and maintain a classroom environment that respects and honors the diversity of our students and faculty members. If you have concerns about the class environment, I encourage you to contact me. If you are not comfortable contacting me, you may also bring concerns to the Provost or the Office of Diversity and Inclusion.''',
 
 'Accommodations' :
