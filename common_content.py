@@ -9,24 +9,21 @@ Answering reading responses before class is critical, and so responses will not 
 Late or missing reading response submissions receive zero points.''',
 
 'Exercises' :
-'''Exercises will be posted on Moodle.
-Exercises will be due at set times as indicated on Moodle.
-Exercise submissions with missing or broken revision histories receive zero points.
-Copy and pasting from others notebooks is prohibited.
-Exercise submissions with any form of directly copied code receive zero points.
+'''Exercises will be posted on Moodle and aredue at set times as indicated on Moodle.
+Exercise submissions with missing or broken revision histories will receive zero points.
+Copy and pasting from others notebooks is prohibited. Exercise submissions with any form of directly copied code receive will zero points.
 Late or missing exercise submissions receive zero points.''',
 
-'Quizzes and Exams' : '''
-Quizzes and exams will cover all material until that point in the semester, but will primarily focus on material since the previous assessments.
+'Quizzes and Exams' :
+'''Quizzes and exams will cover all material until that point in the semester, but will primarily focus on material since the previous assessments.
 Missed quizzes and exams will receive zero points unless prior approval has been received from the instructor.''',
 
 'Projects/Presentations' : 'Detailed information about projects/presentations can be found on Moodle.',
 
-'Engagement / Attendance' : 'h1',
 'Class attendance' : '''Class time is complementary to the reading, and you will need both in order to learn all of the material in this class. Furthermore, each student benefits from the engagement of all others in the class. Part of your final grade will be based on that engagement. Attending every class period on time and prepared is the base level expected of everyone. Higher engagement involves constructive participation, in class or out, such as asking questions, answering them, responding on Discord, sharing insights or useful/interesting resources with the class (posting on Discord, for example), investigating concepts beyond the requirement in class, working on small independent learning projects, etc. The score can be reduced by excessive (more than 3) unexcused absences, disrupting class (e.g., regularly showing up late), dominating the conversation, and other detrimental actions.''',
-'Class absense' : 'Students are responsible for any work missed due to absences. Work may almost always be submitted early. It may not be submitted late.',
+'Class absence' : 'Students are responsible for any work missed due to absences. Work may almost always be submitted early. It may not be submitted late.',
 
-'Grading and Late Work Policy': 'h1',
+
 'Grade for the Course': 'Course grades will be calculated at the end of the term by dividing the points earned by the total number of available points. Grading details are available on Moodle.',
 'Regrading': 'If you would like to request a regrade, submit a request to the instructor via email within one week of receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score and why.',
 'Late Work Policy': 'Unless otherwise stated, late work of any kind will not receive credit.',
@@ -48,15 +45,15 @@ Missed quizzes and exams will receive zero points unless prior approval has been
 
 'Working with Others; Attributions for Others’ Work' :
 '''The following was adapted from Mark Liffiton’s syllabi language.
-
+<li>
 In general, you may discuss assignments with other people and help each other out by reviewing writing or code for each other, but anything you turn in for a grade needs to reflect your own understanding. For any assignment where you receive assistance from another student, you should email the teaching assistant and provide a brief statement indicating what help you received, if any, and from whom you received it. Simply copying work and giving away solutions are not allowed.
-
+</li><li>
 Try to follow this rule of thumb: No matter what help you receive figuring out the concepts involved, when you turn something in you should be able to reproduce the whole thing, working through the assignment again, without any outside help. If you can't, you will have trouble on quizzes, later assignments, etc.
+</li><li>
+When working on code, it is common to find solutions to small problems you have on sites like StackOverflow, technical blogs, or Github. You may use code you find in these situations provided that both 1) it is only a small snippet, up to maybe ten lines of code long, and 2) you clearly and accurately cite the source of the code you are using in a comment nearby. Explain where you found it (with a URL) and what problem it is solving for you. And for your own sake, make sure you understand it. Some assignments may have more specific rules than these about what collaboration or re-use is allowed.
+</li>''',
 
-When working on code, it is common to find solutions to small problems you have on sites like StackOverflow, technical blogs, or Github. You may use code you find in these situations provided that both 1) it is only a small snippet, up to maybe ten lines of code long, and 2) you clearly and accurately cite the source of the code you are using in a comment nearby. Explain where you found it (with a URL) and what problem it is solving for you. And for your own sake, make sure you understand it. Some assignments may have more specific rules than these about what collaboration or re-use is allowed.''',
-
-'Additional Course Policies' : 'h1',
-'Online Classes' :
+  'Online Classes' :
 '''Some class sessions may be held online. All students are expected to attend online class sessions unless they have arranged alternative participation well in advance. Students are expected to join with video on to be present and engaged participants. In accordance with the Illinois Eavesdropping Statute, students will be notified if we record class.''',
 
 'Changes to Syllabus' : 'I reserve the right to alter any part of the syllabus or course schedule at any time. Changes will be announced in class or through email.',
