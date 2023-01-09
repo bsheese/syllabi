@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ course_info['course_abrv'] }}</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <h1>{{ course_info['title'] }}</h1>
+    <h2>{{ course_info['course_abrv'] }}</h2>
+    <h2>{{ semester }}</h2>
+    </div>
+
+
+    {% for i in body_content %}
+      <div style="text-align: left;">
+      <hr><hr>
+      {% set section_title, content_dic, display_instructions = i %}
+
+      <h1>{{ section_title }}</h1>
+
+      {% if display_instructions == 'bulleted_list' %}
+        <ul>
+        {% for key, value in content_dic.items() %}
+          <li>{{key}}: {{value}}</li>
+        {% endfor %}
+        </ul>
+
+      {% else %}
+        {% for key, value in content_dic.items() %}
+          {% if key in ['title', 'course_abrv'] %}
+            {# pass #}
+          {% elif ((key == 'Work Load') and (omit_breakdown == True)) %}
+            {# pass #}
+          {% else %}
+            <h2>{{ key }}</h2>
+            {{ value }}
+          {% endif %}
+        {% endfor %}
+
+      {% endif %}
+      </div>
+    {% endfor %}
+
+
+
+
+    {# a comment #}
+</body>
+</html>

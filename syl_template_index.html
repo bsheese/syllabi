@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    Syllabi Archive
+  </head>
+  
+  <body>
+    <ul>
+      {% for syl_file_name in syllabi_list %}
+        {% set syl_link = "https://bsheese.github.io/syllabi/archive/" + syl_file_name %}
+        <li><a href= {{ syl_link }}>{{syl_file_name}}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
