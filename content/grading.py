@@ -44,22 +44,36 @@ work_dic = {
     'Projects/Presentations':
         'Detailed information about projects/presentations can be found on Moodle.',
 
-    'Class Attendance':
-        '''Class time is complementary to the reading, and you will need both in order to learn all of the material 
-        in this class.''',
-
-    'Class Absence':
-        'Students are responsible for any work missed due to absences. Work may almost always be submitted early. It '
-        'may not be submitted late.',
-
-    'Class Participation':
-        'Each student benefits from the engagement of all others in the class. Attending every class period on time '
-        'and prepared is the base level expected of everyone. Higher engagement involves constructive participation, '
-        'in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources '
-        'with the class, investigating concepts beyond the requirement in class, working on small independent '
-        'learning projects, etc. Students with excessive (more than 3) unexcused absences, disrupting class (e.g., '
-        'regularly showing up late), dominating the conversation, and other detrimental actions may have their final '
-        'course grade reduced by up to a full letter grade.''',
+    'Attendance / Absences / Late to Class / Participation':
+         '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
+        and prepared is the base level expected of everyone. 
+        <li>Positive Engagement: Postive engagement with the class is expected from every students. 
+        Positive engagement involves constructive participation, 
+        in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources 
+        with the class, investigating concepts beyond the requirement in class, working on small independent 
+        learning projects, etc. 
+        <li>Negative Engagement: Negative engagement with the class undermines learning for individual students and for the 
+        class collectively. Negative engagement includes, but it not limited to, disrupting class (e.g., regularly showing up late,
+        regularly leaving class), dominating the conversation, coming to class unprepared or unwilling to participate in class or
+        group activites, and being disrespectful of peers.
+        <li>Grace Tokens: Students have three grace tokens to excuse absences for any reason. The primary purpose of
+        these tokens is to cover instances where absences are required due to illness, personal emergencies, or professional
+        development opportunities (e.g., job or internships interviews).   
+        <li>Required Attendance: Class time is complementary to the reading, and you will need both in order to learn all of the material 
+        in this class. Class attendance is required. Students with unexcused absences will lose a grace token.
+        <li>Late to Class: Coming late to class consistently is disruptive to the class and undermines student learning. 
+        Students are expected to be in class prior to the beginning of the scheduled class time. For virtual classes, students
+        are expected to have their video and audio up and running prior to the beginning of class. Students who are late 
+        for any reason will lose a grace token.
+        <li>University Sponsored Events: Students attending University-sponsored events will be excused
+        but must be able to provide documentation if requested."
+        <li>Illness: Students who are ill should not come to class. Grace tokens will be used to cover absences due
+        to illness and should be reserved for this use.
+        <li>Missed Work: "Students are responsible for completing all missed assignments and reading due to absences.
+        Work may almost always be submitted early, but it may not be submitted late."
+        <li>Penalites: After exhausting their grace tokens, students will receive a deduction from the final course total for every
+        instance of a violation of course policies/requirements. Deductions will start at 1% of the final course grade.
+        '''
 
     'Grade for the Course':
         'Course grades will be calculated at the end of the term by dividing the points earned by the total number of '
