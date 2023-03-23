@@ -19,7 +19,7 @@ policies_dic: dict[str, str] = {
         that accommodations are not retroactive and accommodations cannot be provided until I receive an email from 
         Disability Services.  Once the email is sent, please make arrangements with me as soon as possible to discuss 
         your accommodations confidentially so they may be implemented in a timely fashion.  For more information 
-        contact Disability Services by visiting 110 Holmes Hall, or calling 309-556-3231.''',
+        contact the <a href= "https://www.iwu.edu/accessibility/">Office of Studen Accessibility Services</a>.''',
 
     'Community of Care':
         '''Mental health and physical health are key components of student wellness, and IWU faculty and staff 
