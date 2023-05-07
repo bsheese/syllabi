@@ -31,8 +31,7 @@ course_dic: dict[int, dict] = {
               <li>Strings, Lists, Files</li>
               <li>Series and Dataframes with Pandas</li>
               <li>Descriptives Statistics and Correlations with Pandas</li>
-              <li>Data Visualizations with Seaborn</li>
-              <li>Data Cleaning: Missing Values, Duplicate Entries, Transforming Strings</li>''',
+              <li>Data Visualizations with Seaborn</li>''',
 
          'Course Goals':
              '''<p>This course serves as an introduction to computer science (CS) and data science (DS). 
