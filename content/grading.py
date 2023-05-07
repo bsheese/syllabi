@@ -43,6 +43,9 @@ work_dic = {
 
     'Projects/Presentations':
         'Detailed information about projects/presentations can be found on Moodle.',
+    
+    'Final Exam Period':
+        'Class will meet during the scheduled final exam period. All students are expected to attend in person during the Fall and Spring semester classes.',
 
     'Attendance / Absences / Late to Class / Participation':
          '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
