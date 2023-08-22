@@ -1,10 +1,10 @@
-course_dic: dict[int, dict] = {
+course_dic = {
     125:
         {'title':
              'Introduction to Computer and Data Science',
 
          'course_abrv':
-             'CS/DS125',
+             'CS/DS 125',
 
          'Course Description':
              '''Computer science, broadly, studies how to solve problems using computers.  Data 
@@ -57,6 +57,107 @@ course_dic: dict[int, dict] = {
          well prepared to continue on to other courses in computer science, in data science, or in other areas that 
          involve programming.</p> '''
          },
+    225:
+        {'title':
+             'Data Analytics with Visualization',
+         'course_abrv':
+             'DS225',
+         'Course Description':
+             '''This is a course that builds on CS/DS 125 and Statistics to develop intermediate and advanced data 
+             analytic skills. In particular, this course introduces advanced concepts and tools relevant to data
+             cleaning, organization, and transformation. It further develops skills and knowledge about identifying
+             and applying appropriate statistical tools to answer data-driven questions. It provides advanced
+             treatment of the ethical issues involved in data analytic work. It also teaches students the use
+             of specific software commonly used in data analytics, such as databases for storing and retrieving
+             data and business intelligence software for creating reports from analysis results.''',
+
+         'Course Text':
+             'There is no textbook for the class. Assigned readings are available through moodle.',
+
+         'Course Tools':
+             'This course makes heavy use of Moodle. Students are expected to keep up to date with Moodle '
+             'throughout the semester.',
+
+         'Course Topics/Skills':
+                '''         
+                The core topics addressed by this course are:
+                
+                <li>Algorithmic / computational thinking</li>
+                <li>Communication (written and verbal)</li>
+                <li>Data curation / management</li>
+                <li>Ethics (privacy, informed consent, data security)</li>
+                <li>Statistics / statistical inference</li>
+                <li>Visualization</li>
+                <br>
+                Specific skills developed through this course include:<br>
+                
+                <li>data preparation skills using coding, including data cleaning, organization, and transformation</li>
+                <li>statistical analysis including descriptive statistics, exploratory analyses, inferential statistics,
+                 and modeling up through simple linear regression</li>
+                <li>data aggregation techniques including contingency tables (cross-tabs) and pivot tables</li>
+                <li>analysis and visualization for data-informed decision making</li>
+                <li>use of business intelligence software (e.g. Power BI)</li>
+                <li>use of databases for retrieving data (database queries)</li>
+                ''',
+
+
+
+         'Course Goals':
+             '''Data is central to the natural and social sciences, accounting, business, marketing, and economics. 
+             As information technology grows in power and ubiquity, the amount of data collected
+             is growing commensurately. Data Analytics refers to knowledge and skills associated with exploring,
+             analyzing, and visualizing data to aid decision making. Data Analytics is distinct from Data Science, 
+             in that there is less emphasis on complex computational approaches to data modeling. It is also distinct 
+             from traditional statistics in that, while it includes statistics, it also involves data organization, 
+             curation, and visualization. Many of our graduates will move on to careers where they are working with 
+             data and would benefit from formal training in Data Analytic techniques.'''},
+    377:
+        {'title':
+             'Applied Data Analysis with Machine Learning',
+         'course_abrv':
+             'CS/DS377',
+         'Course Description':
+             '''This course further develops the programming, mathematical, and statistical skills required 
+             for the application of data science tools to data analysis, data visualization, and decision making. 
+             This course includes a methodology/writing component in which students develop a draft research proposal 
+             for a capstone project. Prerequisites: CS/DS 125, CS 126, or CS 127; CS/MATH 136; BIOL 209, ECON 227, 
+             MATH 141, MATH 325, PSYC 227, or SOC 227. Offered every other year.''',
+
+         'Course Texts':
+            '''We will be reading selections from teh following texts, which are free and available
+             online (see Moodle for links):
+            <li>Introduction to Statistics Learning with Applications in Python</li>
+            
+            <li>Python Data Science Handbook</li>
+            <li>OpenIntro Statistics 4th Edition</li>
+            ''',
+
+         'Course Tools':
+             'This course makes heavy use of Moodle. Students are expected to keep up to date with Moodle '
+             'throughout the semester.',
+
+         'Course Topics/Skills':
+             '''         
+             The core topics addressed by this course are:
+
+             <li>Arrays and Numpy</li>
+             <li>Feature Engineering, Selection, Normalization, Scaling</li>
+             <li>Simple Linear Regression</li>
+             <li>Multiple Linear Regression</li>
+             <li>KNN and Naive Bayes</li>
+             <li>Logistic Regression</li>
+             <li>Decision Trees/Random Forrest Models</li>
+             <li>Introduction to Neural Networks</li>
+             <li>Transparency, Ethics, Bias, and Fairness in ML</li>
+             ''',
+
+         'Course Goals':
+             '''Machine Learning techniques are foundational in areas of computer and data science that 
+             deal with data exploration and analysis. The goal of this course is to introduce a variety of techniques,
+              to examine how they work, and to implement them with real-world data. Students who complete the course
+              should be better prepared to take introductory course work in deep learning, to take more advanced 
+              course work in machine learning, and to conduct and evaluate basic analyses using machine
+               learning techniques.'''},
     387:
         {'title':
              'Deep Learning',
@@ -64,7 +165,7 @@ course_dic: dict[int, dict] = {
              'CS387',
          'Course Description':
              '''Deep learning (machine learning using large neural networks) has proven to be 
-         effective at a a number of difficult tasks, with active research ongoing. Student will study mathematical 
+         effective at a a number of difficult tasks, with active research ongoing. Student will study mathematical S
          foundations, implementation of neural network optimization in Python, and a number of applications of deep 
          learning including machine vision and natural language processing. Prerequisites: CS128 with a C- or above 
          and CS/MATH 136.''',

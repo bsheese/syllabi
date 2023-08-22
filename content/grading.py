@@ -50,7 +50,7 @@ work_dic = {
     'Attendance / Absences / Late to Class / Participation':
          '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
         and prepared is the base level expected of everyone. 
-        <li>Positive Engagement: Postive engagement with the class is expected from every students. 
+        <li>Positive Engagement: Positive engagement with the class is expected from every student. 
         Positive engagement involves constructive participation, 
         in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources 
         with the class, investigating concepts beyond the requirement in class, working on small independent 
@@ -69,23 +69,23 @@ work_dic = {
         are expected to have their video and audio up and running prior to the beginning of class. Students who are late 
         for any reason will lose a grace token.
         <li>University Sponsored Events: Students attending University-sponsored events will be excused
-        but must be able to provide documentation if requested."
+        but must be able to provide documentation if requested.
         <li>Illness: Students who are ill should not come to class. Grace tokens will be used to cover absences due
         to illness and should be reserved for this use.
         <li>Missed Work: "Students are responsible for completing all missed assignments and reading due to absences.
-        Work may almost always be submitted early, but it may not be submitted late."
-        <li>Penalites: After exhausting their grace tokens, students will receive a deduction from the final course total for every
+        Work may almost always be submitted early, but it may not be submitted late.
+        <li>Penalties: After exhausting their grace tokens, students will receive a deduction from the final course total for every
         instance of a violation of course policies/requirements. Deductions will start at 1% of the final course grade.
-        '''
+        ''',
 
     'Grade for the Course':
-        'Course grades will be calculated at the end of the term by dividing the points earned by the total number of '
-        'available points. Grading details are available on Moodle.',
+        '''Course grades will be calculated at the end of the term by dividing the points earned by the total number of 
+        available points. Grading details are available on Moodle.''',
 
     'Regrading':
-        'If you would like to request a regrade, submit a request to the instructor via email within one week of '
-        'receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score '
-        'and why.',
+        '''If you would like to request a regrade, submit a request to the instructor via email within one week of 
+        receiving the graded exercise, exam, etc. Indicate exactly which part you believe deserves a different score 
+        and why.''',
 
     'Late Work Policy':
         'Unless otherwise stated, late work of any kind will not receive credit.'

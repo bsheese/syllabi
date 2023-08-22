@@ -1,4 +1,4 @@
-policies_dic: dict[str, str] = {
+policies_dic = {
 
     'Diversity':
         '''Our mission statement includes, "The University through our policies, programs and practices is committed 
