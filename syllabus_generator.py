@@ -1,5 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
-# import importlib
+import IPython
+
+import importlib
 from templates import template_textb
 from content import courses
 from content import instructor
@@ -26,7 +28,7 @@ work_dic = grading.work_dic
 policies_dic = policies.policies_dic
 
 # variables
-course = 377
+
 semester = 'Fall 2023'
 omit_breakdown = True
 course_full_dic = {125:'CSDS125',
@@ -35,29 +37,32 @@ course_full_dic = {125:'CSDS125',
                    387:'CS387'}
 
 
-# create html
-session, year = semester.split()
-course_full = course_dic[course]
-output_file = f'archive/{year}_{session}_{course_full}.html'
+for course in [125,225,377]:
 
-content = [
-    ('Instructor Information', instructor_dic, 'bulleted_list'),
-    ('Course Information', course_dic[course], None),
-    ('Course Work and Grading', work_dic, None),
-    ('Course Policies', policies_dic, None)
-]
+    # create html
+    session, year = semester.split()
+    course_full = course_full_dic[course]
+    output_file = f'archive/{year}_{session}_{course_full}.html'
 
-# use template, output html
-templateLoader = FileSystemLoader(searchpath="./")
-templateEnv = Environment(loader=templateLoader)
-template = templateEnv.get_or_select_template('templates/template1.html')
+    content = [
+        ('Instructor Information', instructor_dic, 'bulleted_list'),
+        ('Course Information', course_dic[course], None),
+        ('Course Work and Grading', work_dic, None),
+        ('Course Policies', policies_dic, None)
+    ]
 
-output = template.render(course_info = course_dic[course],
-                         instructor_info = instructor_dic,
-                         body_content = content,
-                         semester = semester,
-                         omit_breakdown = omit_breakdown)
+    # use template, output html
 
-with open(output_file, 'w') as fp:
-    fp.write(output)
+    templateLoader = FileSystemLoader(searchpath="./")
+    templateEnv = Environment(loader=templateLoader)
+    template = templateEnv.get_or_select_template('templates/template1.html')
+
+    output = template.render(course_info = course_dic[course],
+                             instructor_info = instructor_dic,
+                             body_content = content,
+                             semester = semester,
+                             omit_breakdown = omit_breakdown)
+
+    with open(output_file, 'w', encoding="utf-8") as fp:
+        fp.write(output)
 

@@ -1,3 +1,4 @@
+# coding: utf-8
 course_dic = {
     125:
         {'title':
