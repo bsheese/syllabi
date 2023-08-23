@@ -1,5 +1,4 @@
 from jinja2 import Environment, FileSystemLoader
-import IPython
 
 import importlib
 from templates import template_textb
@@ -24,6 +23,8 @@ with open('templates/template1.html', 'w') as fp:
 # grab dictionary of course specific information
 course_dic = courses.course_dic
 instructor_dic = instructor.instructor_dic
+ta1_dic = instructor.ta1_dic
+ta2_dic = instructor.ta2_dic
 work_dic = grading.work_dic
 policies_dic = policies.policies_dic
 
@@ -46,6 +47,8 @@ for course in [125,225,377]:
 
     content = [
         ('Instructor Information', instructor_dic, 'bulleted_list'),
+        ('Teaching Assistant Information', ta1_dic, 'bulleted_list'),
+        ('Teaching Assistant Information', ta2_dic, 'bulleted_list'),
         ('Course Information', course_dic[course], None),
         ('Course Work and Grading', work_dic, None),
         ('Course Policies', policies_dic, None)

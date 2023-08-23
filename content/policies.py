@@ -1,4 +1,44 @@
 policies_dic = {
+    'Final Exam Period':
+        'Class will meet during the scheduled final exam period. All students are expected to attend in person during'
+        ' Fall and Spring semester classes.',
+    'Grace Tokens' : "Students receive three grace tokens at the beginning of the semester."
+                     " Grace tokens are deducted for absences and being late to class. When ",
+    'Attendance': "Attendance is required. Non-attendance for any reason besides a University sponsored"
+                  "event will result in the loss of a grace token. This includes illness. Please "
+                  "reserve your grace tokens for unforseen events such as illness. Otherwise, plan"
+                  "on being in class.",
+    'Late to Class': "Coming late to class consistently is disruptive to the class and undermines" \
+                     " student learning. Students are expected to be in class prior to the" \
+                     " beginning of the scheduled class time. For virtual classes, students are" \
+                     " expected to have their video and audio up and running prior to the" \
+                     " beginning of class. Students who are late for any reason will lose" \
+                     " a grace token.",
+    'University Sponsored Events': "Students attending University-sponsored events will be" \
+                                   " excused but must be able to provide documentation" \
+                                   " if requested.",
+    'Illness': "Students who are ill should not come to class. Grace tokens will be used"
+               " to cover absences due to illness and should be reserved for this use.",
+    'Missed Work': "Students are responsible for completing all missed assignments" \
+                   " and reading due to absences. Work may almost always be submitted early, " \
+                   "but it may not be submitted late.",
+    'Penalties': "After exhausting their grace tokens, students will receive a deduction" \
+                 " from the final course total for every instance of a violation " \
+                 "of course policies/requirements. Deductions will start at 1% of" \
+                 " the final course grade.",
+    'Participation':
+        '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
+       and prepared is the base level expected of everyone. 
+       <li>Positive Engagement: Positive engagement with the class is expected from every student. 
+       Positive engagement involves constructive participation, 
+       in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources 
+       with the class, investigating concepts beyond the requirement in class, working on small independent 
+       learning projects, etc. 
+       <li>Negative Engagement: Negative engagement with the class undermines learning for individual students and for the 
+       class collectively. Negative engagement includes, but it not limited to, disrupting class (e.g., regularly showing up late,
+       regularly leaving class), dominating the conversation, coming to class unprepared or unwilling to participate in class or
+       group activites, and being disrespectful of peers.
+       ''',
 
     'Diversity':
         '''Our mission statement includes, "The University through our policies, programs and practices is committed 
@@ -19,7 +59,8 @@ policies_dic = {
         that accommodations are not retroactive and accommodations cannot be provided until I receive an email from 
         Disability Services.  Once the email is sent, please make arrangements with me as soon as possible to discuss 
         your accommodations confidentially so they may be implemented in a timely fashion.  For more information 
-        contact the <a href= "https://www.iwu.edu/accessibility/">Office of Studen Accessibility Services</a>.''',
+        contact the <a href= "https://www.iwu.edu/accessibility/">Office of Student Accessibility Services</a>.<br>
+        ''',
 
     'Community of Care':
         '''Mental health and physical health are key components of student wellness, and IWU faculty and staff 
