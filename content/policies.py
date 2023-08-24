@@ -1,9 +1,12 @@
 policies_dic = {
     'Final Exam Period':
-        'Class will meet during the scheduled final exam period. All students are expected to attend in person during'
+        'Class will meet during the scheduled final exam period in the usual classroom.'
+        ' All students are expected to attend in person during'
         ' Fall and Spring semester classes.',
-    'Grace Tokens' : "Students receive three grace tokens at the beginning of the semester."
-                     " Grace tokens are deducted for absences and being late to class. When ",
+    'Grace Tokens':
+        '''Students receive three grace tokens at the beginning of the semester. 
+        Grace tokens are deducted for absences and being late to class.
+        ''',
     'Attendance': "Attendance is required. Non-attendance for any reason besides a University sponsored"
                   "event will result in the loss of a grace token. This includes illness. Please "
                   "reserve your grace tokens for unforseen events such as illness. Otherwise, plan"
@@ -28,17 +31,17 @@ policies_dic = {
                  " the final course grade.",
     'Participation':
         '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
-       and prepared is the base level expected of everyone. 
-       <li>Positive Engagement: Positive engagement with the class is expected from every student. 
-       Positive engagement involves constructive participation, 
-       in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources 
-       with the class, investigating concepts beyond the requirement in class, working on small independent 
-       learning projects, etc. 
-       <li>Negative Engagement: Negative engagement with the class undermines learning for individual students and for the 
-       class collectively. Negative engagement includes, but it not limited to, disrupting class (e.g., regularly showing up late,
-       regularly leaving class), dominating the conversation, coming to class unprepared or unwilling to participate in class or
-       group activites, and being disrespectful of peers.
-       ''',
+        and prepared is the base level expected of everyone. 
+        <li>Positive Engagement: Positive engagement with the class is expected from every student. 
+        Positive engagement involves constructive participation, 
+        in class or out, such as asking questions, answering them, sharing insights or useful/interesting resources 
+        with the class, investigating concepts beyond the requirement in class, working on small independent 
+        learning projects, etc. 
+        <li>Negative Engagement: Negative engagement with the class undermines learning for individual students and for the 
+        class collectively. Negative engagement includes, but it not limited to, disrupting class (e.g., regularly showing up late,
+        regularly leaving class), dominating the conversation, coming to class unprepared or unwilling to participate in class or
+        group activites, and being disrespectful of peers.
+        ''',
 
     'Diversity':
         '''Our mission statement includes, "The University through our policies, programs and practices is committed 
@@ -111,6 +114,20 @@ policies_dic = {
         where you found it (with a URL) and what problem it is solving for you. And for your own sake, make sure you 
         understand it. Some assignments may have more specific rules than these about what collaboration or re-use is 
         allowed. </li>''',
+
+    'How to be Successful in the Course': '''
+        The following has been really effective for many of my students: 
+        <li>Work through exercises the day before class, and then use class 
+        time to get help if needed. 
+        <li>If you can't make it through the first parts of the exercise on your own 
+        then you should go back to the textbook, reread and work on the problems 
+        in the textbook until you've got a better handle on the material.</li> 
+        <li>If course texts aren't enough, look for tutorial videos online that address 
+        the specific topic you are trying to learn. A search like "python for loop tutorial 
+        video" will usually give you many videos to choose from.</li> 
+        <li>After you've done the work, if there are things that you are unclear on or need help 
+        with, come talk to us in class or in office hours.</li> 
+        ''',
 
     'Changes to Syllabus':
         'I reserve the right to alter any part of the syllabus or course schedule at any time. '
