@@ -42,9 +42,8 @@ work_dic = {
         has been received from the instructor.''',
 
     'Projects/Presentations':
-        'Detailed information about projects/presentations can be found on Moodle.',
-    
-
+        '''Any required projects or presentations will be announced in class and detailed information 
+        will be provided on Moodle.''',
 
     'Grade for the Course':
         '''Course grades will be calculated at the end of the term by dividing the points earned by the total number of 
