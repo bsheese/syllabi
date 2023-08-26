@@ -1,4 +1,5 @@
 policies_dic = {
+
     'Final Exam Period':
         'Class will meet during the scheduled final exam period in the usual classroom.'
         ' All students are expected to attend in person during'
