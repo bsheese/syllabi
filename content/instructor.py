@@ -17,5 +17,5 @@ ta1_dic = {
 ta2_dic = {
     'Teaching Assistant': 'Cecelia Blumberg',
     'Contact': 'cblumber@iwu.edu',
-    'Office': 'CNS E210 or as otherwise posted',
-    'Office Hours': 'Mon 1:00-2:00pm, Tuesday 5:00-7:00pm, Wednesday 3:30-5:30pm'}
+    'Office': 'CNS E210 or E204',
+    'Office Hours': 'Mon 1:00-2:00pm in CNS E202, Tuesday 5:00-7:00pm in CNS E210, Wednesday 3:30-5:30pm in CNS E210 or E204'}
