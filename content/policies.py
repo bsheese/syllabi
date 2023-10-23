@@ -10,7 +10,7 @@ policies_dic = {
         ''',
     'Attendance': "Attendance is required. Non-attendance for any reason besides a University sponsored"
                   "event will result in the loss of a grace token. This includes illness. Please "
-                  "reserve your grace tokens for unforseen events such as illness. Otherwise, plan"
+                  "reserve your grace tokens for unforseen events such as illness. Otherwise, plan "
                   "on being in class.",
     'Late to Class': "Coming late to class consistently is disruptive to the class and undermines" \
                      " student learning. Students are expected to be in class prior to the" \
