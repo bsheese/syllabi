@@ -30,15 +30,16 @@ policies_dic = policies.policies_dic
 
 # variables
 
-semester = 'Fall 2023'
+semester = 'Spring 2024'
 omit_breakdown = True
 course_full_dic = {125:'CSDS125',
                    225:'DS225',
+                   253:'CS253',
                    377:'CSDS377',
                    387:'CS387'}
 
 
-for course in [125,225,377]:
+for course in [125,253]:
 
     # create html
     session, year = semester.split()

@@ -112,6 +112,43 @@ course_dic = {
              from traditional statistics in that, while it includes statistics, it also involves data organization, 
              curation, and visualization. Many of our graduates will move on to careers where they are working with 
              data and would benefit from formal training in Data Analytic techniques.'''},
+    253:
+        {'title':
+             'Software Development',
+         'course_abrv':
+             'CS253',
+         'Course Description':
+             '''Explores the application of computer science through the software development process. Focuses on software engineering and the production of complete programs, from planning and user interface design through coding, testing, deployment, and maintenance. Additionally, the course covers several aspects of technical writing, encompassing documentation, specifications, and communication with clients. Prerequisites: CS 128 with a C- or above. Offered each fall.''',
+
+         'Course Texts':
+             '''There is no course textbook. All readings will be provided through the course website.
+             ''',
+
+         'Course Tools':
+             'This course makes heavy use of the course website. Students are expected to keep up to date with the course website '
+             'throughout the semester.',
+
+         'Course Topics/Skills':
+             '''         
+             The core topics addressed by this course are:
+    
+             <li>HTML/CSS/Bootstrap</li>
+             <li>Version Control with Git</li>
+             <li>IDEs</li>
+             <li>Software Development Methodologies</li>
+             <li>Javascript</li>
+             <li>SQL</li>
+             <li>Web Accessibility</li>
+             <li>Web Security</li>
+             <li>Software Development with a Team</li>
+             ''',
+
+         'Course Description':
+             '''Developing software is the primary application of computer science. Very often, a good answer to the central question of computer science, "What can we do with computers?" is "We can do this," where 'this' is a software application that solves a problem or meets some need. With the CS I and CS II courses serving as introductions to computer science and its central tool, programming, this course serves as an introduction to the practice of software development, which is the application of programming to produce a complete, useful piece of software.
+                This course covers everything in that process from initially gathering requirements to delivering a final, working product and everything in between. We will learn about and practice effective processes and techniques used in software development and gain experience using development tools and methodologies for group work that make the process easier. The course culminates with a team project in which you will apply all of the above to create a software application much larger than anything else you have probably tackled until now.
+                As a writing-intensive course, we will spend a significant amount of time focusing on writing, and specifically writing about technical subjects in our field. We will "focus on writing as a process, with opportunities for revision" over several assignments to work on each student's writing and communication skills individually.
+                Upon completing this course, you will have gained the ability to conceive, plan, implement, test, debug, and document a complete software application, preparing you for projects in upper-level courses to come. You will be familiar with a wide range of tools that can make you a more effective programmer, and you will have significant experience with the particular set we employ in this class. While you may not always be developing the same type of software with the same language on the same platform, the experience will translate well to using similar tools you encounter in the future.
+                For an idea of the specific topics covered in the course, see the schedule on the course website.'''},
     377:
         {'title':
              'Applied Data Analysis with Machine Learning',
@@ -125,7 +162,7 @@ course_dic = {
              MATH 141, MATH 325, PSYC 227, or SOC 227. Offered every other year.''',
 
          'Course Texts':
-            '''We will be reading selections from teh following texts, which are free and available
+            '''We will be reading selections from the following texts, which are free and available
              online (see Moodle for links):
             <li>Introduction to Statistics Learning with Applications in Python</li>
             
