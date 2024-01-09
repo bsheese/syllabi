@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ course_info['course_abrv'] }}</title>
+    
 </head>
 <body>
     <div style="text-align: center;">
-    <h1>{{ course_info['title'] }}</h1>
     <h2>{{ course_info['course_abrv'] }}</h2>
-    <h2>{{ semester }}</h2>
+    <h2>{{ course_info['title'] }}</h2>
+    <h3>{{ course_info['course_abrv'] }}</h3>
+    <h3>{{ semester }}</h3>
     </div>
 
 
@@ -16,7 +17,7 @@
       <hr><hr>
       {% set section_title, content_dic, display_instructions = i %}
 
-      <h1>{{ section_title }}</h1>
+      <h2>{{ section_title }}</h2>
 
       {% if display_instructions == 'bulleted_list' %}
         <ul>
@@ -32,7 +33,7 @@
           {% elif ((key == 'Work Load') and (omit_breakdown == True)) %}
             {# pass #}
           {% else %}
-            <h2>{{ key }}</h2>
+            <h3>{{ key }}</h3>
             {{ value }}
           {% endif %}
         {% endfor %}

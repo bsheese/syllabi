@@ -5,19 +5,11 @@ policies_dic = {
         ' All students are expected to attend in person during'
         ' Fall and Spring semester classes.',
     'Grace Tokens':
-        '''Students receive three grace tokens at the beginning of the semester. 
-        Grace tokens are deducted for absences and being late to class.
-        ''',
-    'Attendance': "Attendance is required. Non-attendance for any reason besides a University sponsored"
-                  "event will result in the loss of a grace token. This includes illness. Please "
-                  "reserve your grace tokens for unforseen events such as illness. Otherwise, plan "
-                  "on being in class.",
-    'Late to Class': "Coming late to class consistently is disruptive to the class and undermines" \
-                     " student learning. Students are expected to be in class prior to the" \
-                     " beginning of the scheduled class time. For virtual classes, students are" \
-                     " expected to have their video and audio up and running prior to the" \
-                     " beginning of class. Students who are late for any reason will lose" \
-                     " a grace token.",
+        '''Students receive three grace tokens at the beginning of the semester. Grace tokens are typically used to cover absences for illness but may be used at the students discretion. Save your grace tokens. You may need them later in the semester.''',
+    'Attendance/Tardiness/Participation/Being on Task': '''Attendance is required. Non-attendance for any reason besides a University sponsored event will result in a three point deduction to the participation grade. This includes illness. Please reserve your grace tokens for unforeseen events such as illness. Otherwise, plan on being in class.<br>
+        Students are required to arrive prior to the scheduled class start time. If you are not seated and ready to participate when the instructor starts class, you will receive a one point deduction. Class typically starts on time. For virtual classes, students are expected to have their video and audio up and running prior to the beginning of class.<br>
+        Students are required to be productive and on task during class time. Students are required to work on assigned work from this class. If students have completed all assigned work they should inform the instructors. Students who are not on task will receive a one point deduction in their participation grade.''',
+
     'University Sponsored Events': "Students attending University-sponsored events will be" \
                                    " excused but must be able to provide documentation" \
                                    " if requested.",
@@ -26,10 +18,7 @@ policies_dic = {
     'Missed Work': "Students are responsible for completing all missed assignments" \
                    " and reading due to absences. Work may almost always be submitted early, " \
                    "but it may not be submitted late.",
-    'Penalties': "After exhausting their grace tokens, students will receive a deduction" \
-                 " from the final course total for every instance of a violation " \
-                 "of course policies/requirements. Deductions will start at 1% of" \
-                 " the final course grade.",
+    'Additional Penalties': """Students may receive a deduction from the final course total for every instance of a violation of course policies/requirements. Deductions will be commensurate with the violation, but are typically substantial reductions of the final course grade.""",
     'Participation':
         '''Each student benefits from the engagement of all others in the class. Attending every class period on time 
         and prepared is the base level expected of everyone. 
